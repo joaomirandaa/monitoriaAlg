@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+int main()
+{
+    int x;
+
+    printf ("digite o numero:");
+    scanf ("%d", &x);
+    
+    if (x==1){
+        printf ("dia da semana:domingo");
+    }
+        else if (x==2){
+            printf ("dia da semana: segunda");
+        }
+            else if (x==3){
+                printf ("dia da semana: segunda");
+            }
+                else if (x==3){
+                    printf ("dia da semana: terca");
+                }
+                    else if (x==4){
+                        printf ("dia da semana: quarta");
+                    }
+                        else if (x==5){
+                            printf ("dia da semana: quinta");
+                        }
+                            else if (x==6){
+                                printf ("dia da semana: sexta");
+                            }
+                                else if (x==7){
+                                    printf ("dia da semana: sabado");
+                                }
+                                    else{
+                                        printf ("valor invalido");
+                                        
+                                    }
+                                    
+                                    
+                            
+    return 0;
+}
